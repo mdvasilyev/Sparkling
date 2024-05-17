@@ -8,17 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		74B6F2A42BF62EDD0088C735 /* SparklingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6F2A32BF62EDD0088C735 /* SparklingApp.swift */; };
-		74B6F2A62BF62EDD0088C735 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6F2A52BF62EDD0088C735 /* ContentView.swift */; };
+		74B6F2A62BF62EDD0088C735 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6F2A52BF62EDD0088C735 /* ProfileView.swift */; };
 		74B6F2A82BF62EE00088C735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B6F2A72BF62EE00088C735 /* Assets.xcassets */; };
 		74B6F2AB2BF62EE00088C735 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B6F2AA2BF62EE00088C735 /* Preview Assets.xcassets */; };
+		74B6F2B42BF65AA30088C735 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6F2B32BF65AA30088C735 /* FooterView.swift */; };
+		74B6F2B62BF6B0770088C735 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6F2B52BF6B0770088C735 /* ButtonsView.swift */; };
+		74B6F2B82BF6BCDF0088C735 /* AimsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6F2B72BF6BCDF0088C735 /* AimsView.swift */; };
+		74B6F2BA2BF6BE320088C735 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6F2B92BF6BE320088C735 /* CommunityView.swift */; };
+		74B6F2BC2BF75CBA0088C735 /* UpperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6F2BB2BF75CBA0088C735 /* UpperView.swift */; };
+		74B6F2BE2BF767EA0088C735 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6F2BD2BF767EA0088C735 /* MainView.swift */; };
+		74B6F2C12BF7A6600088C735 /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 74B6F2C02BF7A6600088C735 /* SplineRuntime */; };
+		74B6F2C62BF7C6480088C735 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6F2C52BF7C6480088C735 /* PersonModel.swift */; };
+		74B6F2C82BF7CD360088C735 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6F2C72BF7CD360088C735 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74B6F2A02BF62EDD0088C735 /* Sparkling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sparkling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B6F2A32BF62EDD0088C735 /* SparklingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparklingApp.swift; sourceTree = "<group>"; };
-		74B6F2A52BF62EDD0088C735 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74B6F2A52BF62EDD0088C735 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		74B6F2A72BF62EE00088C735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74B6F2AA2BF62EE00088C735 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74B6F2B32BF65AA30088C735 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		74B6F2B52BF6B0770088C735 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		74B6F2B72BF6BCDF0088C735 /* AimsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AimsView.swift; sourceTree = "<group>"; };
+		74B6F2B92BF6BE320088C735 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		74B6F2BB2BF75CBA0088C735 /* UpperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperView.swift; sourceTree = "<group>"; };
+		74B6F2BD2BF767EA0088C735 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		74B6F2C52BF7C6480088C735 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		74B6F2C72BF7CD360088C735 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = ../../../../Desktop/SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B6F2C12BF7A6600088C735 /* SplineRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +69,9 @@
 		74B6F2A22BF62EDD0088C735 /* Sparkling */ = {
 			isa = PBXGroup;
 			children = (
+				74B6F2C42BF7C6220088C735 /* Models */,
 				74B6F2A32BF62EDD0088C735 /* SparklingApp.swift */,
-				74B6F2A52BF62EDD0088C735 /* ContentView.swift */,
+				74B6F2B12BF65A4D0088C735 /* Views */,
 				74B6F2A72BF62EE00088C735 /* Assets.xcassets */,
 				74B6F2A92BF62EE00088C735 /* Preview Content */,
 			);
@@ -65,6 +84,37 @@
 				74B6F2AA2BF62EE00088C735 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74B6F2B12BF65A4D0088C735 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74B6F2B22BF65A610088C735 /* Components */,
+				74B6F2A52BF62EDD0088C735 /* ProfileView.swift */,
+				74B6F2B72BF6BCDF0088C735 /* AimsView.swift */,
+				74B6F2C72BF7CD360088C735 /* SettingsView.swift */,
+				74B6F2B92BF6BE320088C735 /* CommunityView.swift */,
+				74B6F2BD2BF767EA0088C735 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74B6F2B22BF65A610088C735 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				74B6F2B32BF65AA30088C735 /* FooterView.swift */,
+				74B6F2B52BF6B0770088C735 /* ButtonsView.swift */,
+				74B6F2BB2BF75CBA0088C735 /* UpperView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		74B6F2C42BF7C6220088C735 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74B6F2C52BF7C6480088C735 /* PersonModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +133,9 @@
 			dependencies = (
 			);
 			name = Sparkling;
+			packageProductDependencies = (
+				74B6F2C02BF7A6600088C735 /* SplineRuntime */,
+			);
 			productName = Sparkling;
 			productReference = 74B6F2A02BF62EDD0088C735 /* Sparkling.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +164,9 @@
 				Base,
 			);
 			mainGroup = 74B6F2972BF62EDD0088C735;
+			packageReferences = (
+				74B6F2BF2BF7A6600088C735 /* XCRemoteSwiftPackageReference "spline-ios" */,
+			);
 			productRefGroup = 74B6F2A12BF62EDD0088C735 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +193,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74B6F2A62BF62EDD0088C735 /* ContentView.swift in Sources */,
+				74B6F2B82BF6BCDF0088C735 /* AimsView.swift in Sources */,
+				74B6F2BE2BF767EA0088C735 /* MainView.swift in Sources */,
+				74B6F2C62BF7C6480088C735 /* PersonModel.swift in Sources */,
+				74B6F2B42BF65AA30088C735 /* FooterView.swift in Sources */,
+				74B6F2BA2BF6BE320088C735 /* CommunityView.swift in Sources */,
+				74B6F2C82BF7CD360088C735 /* SettingsView.swift in Sources */,
+				74B6F2BC2BF75CBA0088C735 /* UpperView.swift in Sources */,
+				74B6F2A62BF62EDD0088C735 /* ProfileView.swift in Sources */,
+				74B6F2B62BF6B0770088C735 /* ButtonsView.swift in Sources */,
 				74B6F2A42BF62EDD0088C735 /* SparklingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +408,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		74B6F2BF2BF7A6600088C735 /* XCRemoteSwiftPackageReference "spline-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/splinetool/spline-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		74B6F2C02BF7A6600088C735 /* SplineRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74B6F2BF2BF7A6600088C735 /* XCRemoteSwiftPackageReference "spline-ios" */;
+			productName = SplineRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 74B6F2982BF62EDD0088C735 /* Project object */;
 }
